@@ -1,0 +1,4 @@
+split,images,edge-chipping,hole,line,annotations
+train,1053,7222,7440,4766,19428
+val,224,1629,1553,1050,4232
+test,224,1421,1659,1218,4298

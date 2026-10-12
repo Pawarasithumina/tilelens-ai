@@ -1,0 +1,15 @@
+{
+  "model": "yolo11n.pt",
+  "dataset": "tile_damage_detector_v1",
+  "test_images": 224,
+  "imgsz": 640,
+  "precision_mean": 0.607224531085066,
+  "recall_mean": 0.5848835678604339,
+  "mAP50": 0.5778406330869371,
+  "mAP50_95": 0.29402471843031935,
+  "per_class_mAP50_95": {
+    "edge-chipping": 0.32476923801740315,
+    "hole": 0.432015072126005,
+    "line": 0.1252898451475497
+  }
+}

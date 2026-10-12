@@ -1,0 +1,48 @@
+
+# Local TileLens inspection history
+data/app/*.sqlite3
+
+# TileLens local inspection image previews
+data/app/inspection_images/
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets and application history
+data/
+validation/external_images/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Dataset archives
+*.zip
+
+# Temporary and backup files
+*.before_image_fix.py
+*.before_deletion.py
+*_backup.py
+*.log
+
+# Generated reports and dataset previews
+reports/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+
+# Local dashboard backups
+dashboard/backups/
+
+# Streamlit secrets
+.streamlit/secrets.toml

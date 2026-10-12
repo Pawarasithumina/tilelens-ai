@@ -1,0 +1,4 @@
+origin,images,correct_rate
+caltech,119,1.0
+ceramic_defects,224,1.0
+ceramic_surface,97,1.0
