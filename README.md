@@ -144,6 +144,4 @@ After startup, open **http://localhost:8501** in a browser.
 - Evaluate confidence thresholds, error cases, and robustness under changes in lighting and background.
 - Enhance deployment packaging and documentation for broader use.
 
-## Author
 
-**Pawara Sithumina** — [GitHub](https://github.com/Pawarasithumina)
