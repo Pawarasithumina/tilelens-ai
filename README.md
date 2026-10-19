@@ -1,5 +1,8 @@
 # TileLens AI
 
+![TileLens AI animated ceramic tile scanner concept](assets/animations/tilelens-hero.gif)
+
+
 **Deep Learning-Based Ceramic Tile Inspection System**
 
 TileLens AI is a local computer vision application for identifying ceramic tiles and detecting visible surface defects in images. It combines a MobileNetV3-Small binary image classifier with a YOLO11n object detector in a Streamlit dashboard designed for individual and batch inspection.
@@ -28,6 +31,10 @@ Tile defect detection
        v
 Inspection results in Streamlit dashboard
 ```
+
+![Animation illustrating TileLens AI two-stage classification and defect detection pipeline](assets/animations/tilelens-pipeline.gif)
+
+*The animated visuals are conceptual illustrations, not recorded live predictions or model-performance demonstrations.*
 
 The YOLO11n detector covers three annotated defect categories: **edge-chipping**, **hole**, and **line**. Inferences indicate possible visible defects; they are not guarantees that a tile is defect-free.
 
@@ -88,6 +95,8 @@ Evaluation artifacts can be found under `models/tile_classifier/` and `models/ti
 
 ```text
 tilelens-ai/
+├── assets/
+│   └── animations/          # README GIF animations
 ├── dashboard/
 │   ├── app.py
 │   ├── inference.py
@@ -144,4 +153,6 @@ After startup, open **http://localhost:8501** in a browser.
 - Evaluate confidence thresholds, error cases, and robustness under changes in lighting and background.
 - Enhance deployment packaging and documentation for broader use.
 
+## Author
 
+**Pawara Sithumina** — [GitHub](https://github.com/Pawarasithumina)
